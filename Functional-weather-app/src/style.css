@@ -1,0 +1,174 @@
+.day {
+  border: 1px solid white;
+  border-radius: 40px;
+  width: 70px;
+  height: 115px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px auto;
+  transition: all 200ms ease-in-out;
+  display: block;
+}
+
+.day:hover {
+  cursor: pointer;
+  width: 80px;
+  height: 120px;
+  background-color: #fab987;
+  color: #0a2532;
+}
+
+.allIndex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 900;
+}
+
+.top-icon {
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.container {
+  border: 1px solid #508ea0;
+  border-radius: 5px;
+  display: block;
+  margin: 40px auto;
+  width: 450px;
+  height: 670px;
+  background-image: url("images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cities {
+  text-align: center;
+  margin: 40px 0 20px auto;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.date {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.col-3 {
+  transition: all 200ms ease-in-out;
+}
+
+.col-3:hover {
+  font-size: 16px;
+}
+
+.days {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#city-input {
+  margin: 10px 10px 25px 13px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #508ea0;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  width: 265px;
+}
+.fa-location-dot {
+  margin: 10px;
+  color: #e5a781;
+  font-size: 35px;
+}
+.button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5a781;
+  margin: 10px 20px 25px 65px;
+  width: 80px;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5a781;
+  color: white;
+}
+
+.button:hover {
+  background: transparent;
+  color: #e5a781;
+  font-weight: 900;
+}
+
+.index {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 0 10px 15px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  line-height: 5px;
+}
+
+.coder {
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 20px;
+  border: 0.5px solid #35565f;
+  background-color: #35565f;
+  width: 260px;
+  font-family: fantasy;
+  font-size: 12px;
+  display: block;
+  padding: 4px;
+  color: white;
+}
+.coder-link {
+  color: white;
+  text-decoration: none;
+}
+
+.showTemp {
+  list-style: none;
+  text-align: center;
+}
+
+.temperature,
+.unit {
+  display: inline-block;
+  color: white;
+  margin-top: 10px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.unit {
+  position: relative;
+  top: -45px;
+}
+
+.farenheit,
+.celcius {
+  color: white;
+  text-decoration: none;
+}

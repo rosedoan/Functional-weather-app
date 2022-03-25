@@ -12,9 +12,87 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/dfa23fc663.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro:wght@100&family=Berkshire+Swash&family=Bubblegum+Sans&family=Cutive+Mono&family=Dancing+Script&family=Gentium+Book+Basic&family=Island+Moments&family=Italianno&family=Josefin+Sans:wght@200&family=Josefin+Slab&family=Kanit&family=Karla:wght@300&family=Licorice&family=Lobster&family=Luckiest+Guy&family=Luxurious+Roman&family=Merriweather:wght@300;400&family=Moon+Dance&family=Mukta:wght@300&family=Neucha&family=Oleo+Script&family=Open+Sans:wght@300;400&family=PT+Sans+Narrow&family=PT+Serif&family=Pacifico&family=Poppins:wght@200&family=Quintessential&family=Raleway:wght@200&family=Rancho&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Rowdies:wght@300&family=Satisfy&family=Shadows+Into+Light&family=Source+Serif+Pro:wght@300&family=Waterfall&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
+      <div class="row cities">
+        <div class="col-3" id="hanoi">Hanoi</div>
+        <div class="col-3 berlin" id="berlin">Berlin</div>
+        <div class="col-3" id="tokyo">Tokyo</div>
+        <div class="col-3" id="seoul">Seoul</div>
+      </div>
+
+      <form id="show-city">
+        <div class="row">
+          <div class="col-1">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="col-6">
+            <input type="text" placeholder="Which city?" id="city-input" />
+          </div>
+          <div class="col-5">
+            <input type="submit" value="Search" class="button" />
+          </div>
+        </div>
+      </form>
+
+      <h1>Denver</h1>
+      <p class="date">Thursday, March 3, 2022 21:22</p>
+
+      <h2><i class="fa-solid fa-sun"></i> <span id="description"></span></h2>
+
+      <ul class="showTemp">
+        <li class="temperature">9</li>
+        <li class="unit">
+          <a href="" class="celcius">°C </a> |
+          <a href="" class="farenheit">°F</a>
+        </li>
+      </ul>
+
+      <ul class="allIndex">
+        <li class="index">Humidity: <span id="humidity">26</span>%</li>
+        <li class="index">Wind: <span id="wind">6</span> mph</li>
+        <li class="index">Feel Like: <span id="feelLike"></span>°</li>
+      </ul>
+
+      <div class="row days">
+        <div class="col-3 day">
+          <p>Mon</p>
+          <i class="fa-solid fa-sun"></i>
+          <p>-1°</p>
+        </div>
+        <div class="col-3 day">
+          <p>Tue</p>
+          <i class="fa-solid fa-cloud-sun"></i>
+          <p>1°</p>
+        </div>
+        <div class="col-3 day">
+          <p>Wed</p>
+          <i class="fa-solid fa-snowflake"></i>
+          <p>-4°</p>
+        </div>
+        <div class="col-3 day">
+          <p>Thu</p>
+          <i class="fa-solid fa-cloud-sun"></i>
+          <p>-9°</p>
+        </div>
+      </div>
+      <div class="coder">
+        <a href="https://github.com/rosedoan/Weather-app" class="coder-link">
+          Open-source Code </a
+        >by Rose Doan
+      </div>
       <script src="src/app.js"></script>
     </div>
   </body>
