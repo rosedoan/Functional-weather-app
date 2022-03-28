@@ -10,6 +10,9 @@
   display: block;
 }
 
+#description:first-letter {
+  text-transform: capitalize;
+}
 .day:hover {
   cursor: pointer;
   width: 80px;
